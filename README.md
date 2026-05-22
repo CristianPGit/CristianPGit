@@ -27,3 +27,8 @@ Software engineer focused on building reliable, user-facing web applications —
 ## Stats
 
 <img src="https://github-readme-stats.vercel.app/api?username=CristianPGit&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="140" />
+
+---
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/cristianpandele)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:pandelecristian11@gmail.com)
