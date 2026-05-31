@@ -92,7 +92,15 @@ I build user-facing web apps end-to-end — from Postgres schemas and RLS polici
 
 <br/>
 
-<img height="165" src="https://github-readme-streak-stats.demolab.com?user=CristianPGit&theme=tokyonight&hide_border=true" />
+<img height="165" src="https://streak-stats.demolab.com?user=CristianPGit&theme=tokyonight&hide_border=true" />
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CristianPGit/CristianPGit/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CristianPGit/CristianPGit/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/CristianPGit/CristianPGit/output/github-contribution-grid-snake.svg" />
+</picture>
 
 <br/>
 
