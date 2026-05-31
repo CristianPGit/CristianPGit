@@ -87,12 +87,16 @@ I build user-facing web apps end-to-end — from Postgres schemas and RLS polici
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=CristianPGit&show_icons=true&hide_border=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CristianPGit&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=CristianPGit&theme=tokyonight" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=CristianPGit&theme=tokyonight" />
 
 <br/>
 
 <img height="165" src="https://github-readme-streak-stats.demolab.com?user=CristianPGit&theme=tokyonight&hide_border=true" />
+
+<br/>
+
+<img alt="Contribution graph" src="https://ghchart.rshah.org/3178C6/CristianPGit" />
 
 </div>
 
