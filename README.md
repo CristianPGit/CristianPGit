@@ -20,7 +20,8 @@
 
 I build user-facing web apps end-to-end — from Postgres schemas and RLS policies through Server Components and on to Playwright suites that actually catch regressions. I came up through QA, which means I tend to design features around the failure modes first, then make the happy path feel obvious.
 
-- 🩺 Currently building **[PSCribe](https://github.com/CristianPGit/PSC)** — a multilingual health journal for tracking Primary Sclerosing Cholangitis.
+- 🩺 Currently building **PSCribe** *(private)* — a multilingual health journal for tracking Primary Sclerosing Cholangitis.
+- 🧪 Building **[QA Architect](https://github.com/CristianPGit/claude-qa-architect)** — an AI QA engineer plugin for Claude Code.
 - 🧪 Reformed manual tester. I write the tests *with* the feature, not after.
 - 🌍 Trilingual UI by default — **EN / RO / CS**.
 - 📬 Best reached on [LinkedIn](https://www.linkedin.com/in/cristian-p-sqa/).
@@ -69,17 +70,20 @@ I build user-facing web apps end-to-end — from Postgres schemas and RLS polici
 
 ### ✨ Featured
 
-> 🩺 **[PSCribe](https://github.com/CristianPGit/PSC)** &nbsp;·&nbsp; *personal health journal for PSC*
+> 🧪 **[claude-qa-architect](https://github.com/CristianPGit/claude-qa-architect)** &nbsp;·&nbsp; *an AI QA engineer for Claude Code*
+> Plugin **and** agent. Generates **Happy / Sad / Edge** test cases straight from **Linear** tickets and **GitHub** PRs, drives a **real browser** (chrome-devtools / playwright-cli) to explore behavior, then **writes, runs, and auto-fixes** tests in your framework — and **learns your calibration** so you never repeat feedback.
+
+> 🩺 **PSCribe** *(private)* &nbsp;·&nbsp; *personal health journal for PSC*
 > Mobile-first PWA in EN / RO / CS. Daily check-ins, meals, lab markers (LFTs + PSC-specific), appointments & medical reports, all-time overview with custom SVG charts. **Next.js 16 · Supabase (RLS) · Playwright.**
 
-> 🎭 **[search-test-scenario-playwright](https://github.com/CristianPGit/search-test-scenario-playwright)** &nbsp;·&nbsp; *BDD e2e suite*
-> Gherkin features compiled with playwright-bdd, worker-scoped auth, tag-based filtering, Allure reports. Built against a real banking FAT environment.
+> 🔍 **[visual-regression-cli](https://github.com/CristianPGit/visual-regression-cli)** &nbsp;·&nbsp; *snapshot · diff · approve*
+> Visual regression testing for Playwright — capture baselines, diff against them, and review changes through an approval workflow with HTML reports.
 
-> 🌲 **[search-test-scenario-cypress](https://github.com/CristianPGit/search-test-scenario-cypress)** &nbsp;·&nbsp; *Cypress port of the same suite*
-> Same scenarios, different runner — useful side-by-side reference for teams choosing between the two.
+> 🩹 **[self-healing-tests](https://github.com/CristianPGit/self-healing-tests)** &nbsp;·&nbsp; *selectors that fix themselves*
+> Auto-repairs broken Playwright selectors by inspecting the live DOM at runtime — when a class hash changes or a `data-testid` disappears, it finds the replacement and patches your test files.
 
-> 🛒 **[techshop-demo](https://github.com/CristianPGit/techshop-demo)** &nbsp;·&nbsp; *sandbox*
-> Small e-commerce playground I use for experimenting with UI patterns.
+> 🎯 **[flaky-test-detector](https://github.com/CristianPGit/flaky-test-detector)** &nbsp;·&nbsp; *run N times, find the flakes*
+> Runs your suite repeatedly, surfaces the tests that pass-then-fail, and helps you stabilize them before they erode trust in the pipeline.
 
 ---
 
