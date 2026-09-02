@@ -35,8 +35,6 @@ digest, reading the ticket. I still own the diff.
 |---|---|
 | 🩺 **Chronicare** *(private)* | Repositioning the chronic-condition tracker IBD-wide. Two-week digests, an in-app agent with write tools, GDPR export/delete, and a Kotlin Multiplatform client sharing one Supabase backend. |
 | 🧰 **[claude-qa-architect](https://github.com/CristianPGit/claude-qa-architect)** | Merged eight sibling QA projects into one monorepo — 2 Claude Code plugins, 3 CLIs, 9 subagents, and a real E2E suite to prove it works. |
-| 🎓 **[AI Web QA course](https://github.com/nebius-academy-templates/ai-web-qa-course)** | Writing workshop material on AI-assisted web QA — sprint gates, adversarial fixtures, and an offline-first track that needs no API key. |
-| 🖼️ **market-watch** *(private)* | A twice-daily art-auction digest running for free on GitHub Actions, with the git repo itself as the datastore. |
 
 ---
 
@@ -147,10 +145,6 @@ the point of the monorepo is that they hand off to each other instead of each be
 > Mobile-first PWA in EN / RO / CS — check-ins, meals, lab markers, appointments, and a two-week
 > digest with a hand-rolled activity index. **Next.js 16 · Supabase RLS · AI Gateway · Playwright ·
 > Compose Multiplatform.**
-
-> 🎓 **[ai-web-qa-course](https://github.com/nebius-academy-templates/ai-web-qa-course)** &nbsp;·&nbsp; *teaching the loop, not the tool*
-> Workshop material for AI-assisted web QA, built against a real demo store: sprint gates, checkpoint
-> solutions, adversarial fixtures, and a canned-generation mode so nobody is blocked on an API key.
 
 > ⚡ **[techshop-demo](https://github.com/CristianPGit/techshop-demo)** &nbsp;·&nbsp; *[live](https://cristianpgit.github.io/techshop-demo/)*
 > A deliberately imperfect e-commerce store — static site plus an Express API — used as the practice
