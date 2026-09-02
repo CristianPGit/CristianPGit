@@ -119,13 +119,14 @@ flowchart LR
     B --> C["Happy / Sad / Edge<br/>test cases"]
     C --> D["Playwright + BDD specs"]
     D --> E{"CI"}
-    E -->|"flaky"| F["flaky-test-detector"]
-    E -->|"selector broke"| G["self-healing-tests"]
-    E -->|"UI changed"| H["visual-regression"]
-    F --> D
-    G --> D
-    H --> D
     E -->|"green"| S["Ship"]
+    E -->|"red"| R
+    subgraph R["the suite lied — fix it"]
+      F["flaky-test-detector"]
+      G["self-healing-tests"]
+      H["visual-regression"]
+    end
+    R -.->|"re-run"| D
 ```
 
 Every box is a real tool in [`claude-qa-architect`](https://github.com/CristianPGit/claude-qa-architect) —
