@@ -33,7 +33,7 @@ digest, reading the ticket. I still own the diff.
 
 | Project | What's happening |
 |---|---|
-| 🩺 **Chronicare** *(private)* | Repositioning the chronic-condition tracker IBD-wide. Two-week digests, an in-app agent with write tools, GDPR export/delete, and a Kotlin Multiplatform client sharing one Supabase backend. |
+| 🩺 **[Chronicare](https://psc-tracker-theta.vercel.app/en)** *(private code)* | Shipped a new landing page and brand, a 10-second daily check-in with drag sliders, voice check-ins, Google Health → Apple Health sync for meals and water, InBody body scans, GDPR export/delete, and per-user AI rate limits. Next: Kotlin Multiplatform client on the same Supabase backend. |
 | 🧰 **[claude-qa-architect](https://github.com/CristianPGit/claude-qa-architect)** | Merged eight sibling QA projects into one monorepo — 2 Claude Code plugins, 3 CLIs, 9 subagents, and a real E2E suite to prove it works. |
 
 ---
@@ -141,10 +141,12 @@ the point of the monorepo is that they hand off to each other instead of each be
 > working branches; CLIs that hunt flakiness, heal broken selectors, and diff screenshots; a browser
 > toolkit for the daily grind; and a live Playwright + BDD suite proving the whole chain.
 
-> 🩺 **Chronicare** *(private)* &nbsp;·&nbsp; *a journal for living with a chronic condition*
-> Mobile-first PWA in EN / RO / CS — check-ins, meals, lab markers, appointments, and a two-week
-> digest with a hand-rolled activity index. **Next.js 16 · Supabase RLS · AI Gateway · Playwright ·
-> Compose Multiplatform.**
+> 🩺 **[Chronicare](https://psc-tracker-theta.vercel.app/en)** *(private code · live app)* &nbsp;·&nbsp; *a journal for living with a chronic condition*
+> Mobile-first PWA in EN / RO / CS for PSC, colitis and Crohn's — check-ins, lab markers over years,
+> appointments, a visit-prep summary, and an in-app agent. **Next.js 16 · Supabase RLS · AI Gateway ·
+> Playwright · Compose Multiplatform.**
+
+<a href="https://psc-tracker-theta.vercel.app/en"><img src="assets/chronicare-hero.png" alt="Chronicare landing page — hero with a phone mockup of the Today screen (sample data)" width="100%"></a>
 
 > ⚡ **[techshop-demo](https://github.com/CristianPGit/techshop-demo)** &nbsp;·&nbsp; *[live](https://cristianpgit.github.io/techshop-demo/)*
 > A deliberately imperfect e-commerce store — static site plus an Express API — used as the practice
@@ -153,34 +155,6 @@ the point of the monorepo is that they hand off to each other instead of each be
 > 🥾 **[euro-trails-map](https://github.com/CristianPGit/euro-trails-map)** &nbsp;·&nbsp; *[live](https://cristianpgit.github.io/euro-trails-map/)*
 > 66 of Europe's best long-distance hikes on one Leaflet map — difficulty, distance, season, and
 > where to start walking.
-
----
-
-### ◆ Activity
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=CristianPGit&theme=github_dark">
-  <img alt="Contributions over the last year" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=CristianPGit&theme=default">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=CristianPGit&theme=github_dark">
-  <img height="170" alt="Top languages by repo" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=CristianPGit&theme=default">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=CristianPGit&theme=github_dark">
-  <img height="170" alt="Top languages by commit" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=CristianPGit&theme=default">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=CristianPGit&theme=github_dark&utcOffset=3">
-  <img height="170" alt="Commits per hour of day" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=CristianPGit&theme=default&utcOffset=3">
-</picture>
-
-<sub>Public repos only — a good half of the commits above land in private ones.</sub>
-
-</div>
 
 ---
 
