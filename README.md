@@ -34,7 +34,7 @@ digest, reading the ticket. I still own the diff.
 | Project | What's happening |
 |---|---|
 | 🩺 **[Chronicare](https://psc-tracker-theta.vercel.app/en)** *(private code)* | Shipped a new landing page and brand, a 10-second daily check-in with drag sliders, voice check-ins, Google Health → Apple Health sync for meals and water, InBody body scans, GDPR export/delete, and per-user AI rate limits. Next: Kotlin Multiplatform client on the same Supabase backend. |
-| 🧰 **[claude-qa-architect](https://github.com/CristianPGit/claude-qa-architect)** | Merged eight sibling QA projects into one monorepo — 2 Claude Code plugins, 3 CLIs, 9 subagents, and a real E2E suite to prove it works. |
+| 🧰 **[claude-qa-architect](https://github.com/CristianPGit/claude-qa-architect)** | Shipped `/qa` — one command that takes a ticket or PR, prepares the test env, proves bugs with repro tests, and opens stacked fix PRs, behind a guard hook that blocks prod and asks before anything outward-facing. |
 
 ---
 
@@ -115,7 +115,7 @@ flowchart LR
     T["Ticket / PR"] --> A["qa-architect<br/>reads the intent"]
     A --> B["explores the live UI<br/>chrome-devtools MCP"]
     B --> C["Happy / Sad / Edge<br/>test cases"]
-    C --> D["Playwright + BDD specs"]
+    C --> D["Playwright specs<br/>proven bugs only"]
     D --> E{"CI"}
     E -->|"green"| S["Ship"]
     E -->|"red"| R
@@ -137,9 +137,10 @@ the point of the monorepo is that they hand off to each other instead of each be
 ### ◆ Featured
 
 > 🧰 **[claude-qa-architect](https://github.com/CristianPGit/claude-qa-architect)** &nbsp;·&nbsp; *one toolchain for AI-assisted quality engineering*
-> Claude Code plugins that turn Linear tickets and GitHub PRs into **Happy / Sad / Edge** cases and
-> working branches; CLIs that hunt flakiness, heal broken selectors, and diff screenshots; a browser
-> toolkit for the daily grind; and a live Playwright + BDD suite proving the whole chain.
+> `/qa` — an AI QA engineer for Claude Code: hand it a ticket or PR and it plans, tests, **proves
+> every bug with a failing repro test**, reports with evidence and learns, asking you once at the end.
+> Around it: CLIs that hunt flakiness, heal broken selectors, diff screenshots, pick the tests a diff
+> can break, and eval LLM agents and MCP servers.
 
 > 🩺 **[Chronicare](https://psc-tracker-theta.vercel.app/en)** *(private code · live app)* &nbsp;·&nbsp; *a journal for living with a chronic condition*
 > Mobile-first PWA in EN / RO / CS for PSC, colitis and Crohn's — check-ins, lab markers over years,
